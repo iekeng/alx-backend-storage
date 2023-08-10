@@ -2,4 +2,4 @@
 -- from the metal_band table.
 SELECT country, SUM(fans) as nb_fans 
 	GROUP BY origin 
-	ORDER BY nb_fans;
+	ORDER BY nb_fan DESC;
