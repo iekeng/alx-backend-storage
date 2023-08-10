@@ -1,5 +1,5 @@
---creates the user table if it doesn't exist
---or modifies it if it does
+-- creates the user table if it doesn't exist or modifies
+-- it if it does with id, email and name columns
 CREATE TABLE IF NOT EXISTS users (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	email VARCHAR(255) NOT NULL UNIQUE,
