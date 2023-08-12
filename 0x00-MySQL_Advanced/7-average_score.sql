@@ -1,6 +1,6 @@
 -- Creates procedure that computes average score
 -- for students projects
-DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
+drop procedure IF EXISTS ComputeAverageScoreForUser;
 DELIMITER $$;
 CREATE PROCEDURE ComputeAverageScoreForUser(IN user_id INT)
 BEGIN
