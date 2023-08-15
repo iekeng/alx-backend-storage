@@ -1,0 +1,2 @@
+// updates the document that matches name="Holberton school" in the school collection
+db.school.updateOne({"name": "Holberton school"}, { $set: {"address": "972 Mission street"}})
